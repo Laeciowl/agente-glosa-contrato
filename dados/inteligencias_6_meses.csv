@@ -1,0 +1,27 @@
+inteligencia,tipo,status,identificada,enviada_operadora,enviada_prestador,efetivada,media_efetivacao_clientes_arvo
+Conformidade auxiliares,Administrativa,Ligada,7000,7000,4550,3281.915,0.7713000000000001
+Quantidade excessiva SADT internação,Técnica,Ligada,35000,17500,12250,12177.87536855654,0.9741122749842075
+Guias duplicadas,Administrativa,Ligada,90000,63000,47250,41853.26403426503,0.8867833658045509
+Quantidade excessiva de taxas,Administrativa,Desligado,98000,0,0,0,0.9559983097707793
+Conformidade vias de acesso,Administrativa,Desligado,14000,0,0,0,0.885783365804551
+Sobreposição de SADT,Técnica,Desligado,175000,0,0,0,0.7213
+Serviço fora do Rol ANS,Administrativa,Ligada,14000,14000,8960,8523.648000000001,0.9514400000000002
+Pertinência em Pronto Socorro,Técnica,Ligada,105000,52500,36225,34631.03877144648,0.9059983097707793
+Código-descrição divergentes,Administrativa,Ligada,84000,75600,55944,46797.15599999999,0.8464999999999998
+Alto Markup,Administrativa,Desligado,350000,0,0,0,0.1237
+Reexecução SADT,Técnica,Desligado,63000,0,0,0,0.8365
+Códigos inválidos,Administrativa,Desligado,49000,0,0,0,0.7713
+Códigos inativos,Administrativa,Ligada,700,630,396.9000000000001,352.8441000000001,0.839
+Cobrança inadequada de anatomia patológica,Técnica,Ligada,14000,11200,7616,5917.014200234818,0.8269188813333532
+Pertinência de taxas,Administrativa,Ligada,42000,33600,24528,24243.05164980215,0.8883827319717118
+Cobrança indevida de procedimentos ambulatoriais durante internação,Técnica,Desligado,7000,0,0,0,0.948382731971712
+Quantidade Excessiva de Materiais,Técnica,Desligado,56000,0,0,0,0.7769188813333532
+Quantidade excessiva de terapia internação,Técnica,Desligado,14000,0,0,0,0.1259335917221625
+Pertinencia de Materiais,Técnica,Ligada,250000,62500,38750,34921.5,0.8512
+Sobreposição de procedimentos cirúrgicos,Técnica,Ligada,182000,91000,60970,57720.29899999999,0.9566999999999999
+Sobreposição de taxas,Administrativa,Ligada,28000,28000,20160,13843.63273261776,0.636688131578262
+Cobrança em excesso de anatomia patológica,Técnica,Desligado,14000,0,0,0,0.832449788431179
+Quantidade excessiva de terapia sequencial,Técnica,Desligado,49000,0,0,0,0.7769188813333532
+Conformidade taxas de sala,Técnica,Ligada,63000,59450,41615,37453.5,0.8798
+Sobreposição de consultas,Técnica,Ligada,56000,21000,14700,14053.2,0.9245
+Quantidade excessiva SADT ambulatorial,Técnica,Desligado,77000,0,0,0,0.8798

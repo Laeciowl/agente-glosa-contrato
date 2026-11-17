@@ -1,0 +1,56 @@
+{
+  "_leia_me": "Tudo o que vem do contrato fica neste arquivo. Para outro prestador, copie este arquivo e troque os valores. O motor (agente.py) nao muda.",
+
+  "prestador": {
+    "id_prestador": "P001",
+    "nome": "Hospital São Rafael"
+  },
+
+  "contrato": {
+    "numero": "PRT-2025-0417",
+    "vigencia_inicio": "2025-01-01",
+    "vigencia_fim": "2026-12-31",
+    "fonte": "Contrato-parthenon-x-hospital-sao-rafael.pdf"
+  },
+
+  "tolerancia_preco_reais": "0.00",
+
+  "tabela_precos": {
+    "_fonte": "Anexo I. Valores unitarios maximos pactuados. Clausula 2.2.",
+    "itens": [
+      {"cod_tuss": "31001012", "descricao": "Colecistectomia videolaparoscópica", "tipo": "Procedimento", "valor": "4200.00"},
+      {"cod_tuss": "31309062", "descricao": "Herniorrafia inguinal unilateral",   "tipo": "Procedimento", "valor": "3100.00"},
+      {"cod_tuss": "30715016", "descricao": "Artroscopia cirúrgica de joelho",    "tipo": "Procedimento", "valor": "3800.00"},
+      {"cod_tuss": "10101039", "descricao": "Consulta médica em consultório",     "tipo": "Procedimento", "valor": "120.00"},
+      {"cod_tuss": "20103077", "descricao": "Taxa de sala cirúrgica - porte 4",   "tipo": "Taxa",         "valor": "1250.00"},
+      {"cod_tuss": "20103050", "descricao": "Taxa de sala cirúrgica - porte 2",   "tipo": "Taxa",         "valor": "620.00"},
+      {"cod_tuss": "60012010", "descricao": "Diária de enfermaria",               "tipo": "Taxa",         "valor": "480.00"},
+      {"cod_tuss": "60023011", "descricao": "Diária de UTI adulto",               "tipo": "Taxa",         "valor": "1600.00"},
+      {"cod_tuss": "99999001", "descricao": "Taxa de urgência/emergência",        "tipo": "Taxa",         "valor": "350.00"},
+      {"cod_tuss": "40304361", "descricao": "Hemograma completo",                 "tipo": "SADT",         "valor": "18.00"},
+      {"cod_tuss": "40901416", "descricao": "Tomografia computadorizada de crânio","tipo": "SADT",        "valor": "320.00"},
+      {"cod_tuss": "40808157", "descricao": "Ultrassonografia de abdome total",   "tipo": "SADT",         "valor": "140.00"},
+      {"cod_tuss": "70520020", "descricao": "Fio de sutura agulhado",             "tipo": "Material",     "valor": "45.00"},
+      {"cod_tuss": "70402600", "descricao": "Compressa cirúrgica estéril",        "tipo": "Material",     "valor": "9.00"},
+      {"cod_tuss": "70451938", "descricao": "Cateter venoso central duplo lúmen", "tipo": "Material",     "valor": "280.00"},
+      {"cod_tuss": "90070020", "descricao": "Cefazolina 1g - frasco-ampola",      "tipo": "Medicamento",  "valor": "16.00"},
+      {"cod_tuss": "90050010", "descricao": "Dipirona 500 mg - ampola",           "tipo": "Medicamento",  "valor": "4.00"}
+    ]
+  },
+
+  "pacotes": {
+    "_fonte": "Anexo II e clausulas 3.1 a 3.3. O pacote inclui a taxa de sala do porte indicado e os materiais de rotina.",
+    "itens": [
+      {"cod_procedimento": "31001012", "descricao": "Colecistectomia videolaparoscópica", "taxa_sala_inclusa": "20103077", "materiais_inclusos": ["70520020", "70402600"]},
+      {"cod_procedimento": "31309062", "descricao": "Herniorrafia inguinal unilateral",   "taxa_sala_inclusa": "20103050", "materiais_inclusos": ["70520020", "70402600"]},
+      {"cod_procedimento": "30715016", "descricao": "Artroscopia cirúrgica de joelho",    "taxa_sala_inclusa": "20103077", "materiais_inclusos": ["70520020", "70402600"]}
+    ],
+    "codigos_taxa_sala": ["20103077", "20103050"]
+  },
+
+  "taxa_urgencia": {
+    "_fonte": "Clausulas 4.1 e 4.2. Devida so quando o carater registrado e urgencia ou emergencia.",
+    "cod_tuss": "99999001",
+    "carateres_permitidos": ["Urgência", "Emergência"]
+  }
+}

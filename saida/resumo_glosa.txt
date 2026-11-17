@@ -1,0 +1,16 @@
+Itens no extrato:          1696
+Contas no extrato:         320
+Faturado:                  R$ 1,194,396.92
+Itens glosados:            369
+Contas com glosa:          208
+Valor glosado:             R$ 121,948.93
+Glosa / faturado:          10.21%
+Itens em revisão humana:   0
+
+Por regra:
+  R2_PACOTE              cláusula 3.2 e 3.3   117 itens   R$    55,484.17    45.50% da glosa
+  R1_PRECO_PACOTE        cláusula 3.1 e 2.2    29 itens   R$    27,899.15    22.88% da glosa
+  R3_URGENCIA_ELETIVO    cláusula 4.1 e 4.2    77 itens   R$    26,589.35    21.80% da glosa
+  R1_PRECO               cláusula 2.2         146 itens   R$    11,976.26     9.82% da glosa
+
+Glosas com alerta de recurso: 9 itens, R$ 3,087.98

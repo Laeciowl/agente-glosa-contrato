@@ -1,0 +1,24 @@
+inteligencia,tipo,situacao,valor_parado_mes,efetivado_conservador_mes,efetivado_potencial_mes,taxa_efetivacao_usada,fonte_da_taxa
+Pertinencia de Materiais,Técnica,retida (ligada),187500.0,104764.5,168975.0,0.9012,real na Parthenon
+Sobreposição de SADT,Técnica,desligada,175000.0,87895.9,126227.5,0.7213,média Arvo
+Quantidade excessiva de taxas,Administrativa,desligada,98000.0,65237.58,93687.83,0.956,média Arvo
+Sobreposição de procedimentos cirúrgicos,Técnica,retida (ligada),91000.0,57720.3,86149.7,0.9467,real na Parthenon
+Quantidade excessiva SADT ambulatorial,Técnica,desligada,77000.0,47172.55,67744.6,0.8798,média Arvo
+Reexecução SADT,Técnica,desligada,63000.0,36696.21,52699.5,0.8365,média Arvo
+Pertinência em Pronto Socorro,Técnica,retida (ligada),52500.0,34631.04,50189.91,0.956,real na Parthenon
+Quantidade Excessiva de Materiais,Técnica,desligada,56000.0,30295.52,43507.46,0.7769,média Arvo
+Alto Markup,Administrativa,desligada,350000.0,30147.58,43295.0,0.1237,média Arvo
+Quantidade excessiva de terapia sequencial,Técnica,desligada,49000.0,26508.58,38069.03,0.7769,média Arvo
+Códigos inválidos,Administrativa,desligada,49000.0,26316.86,37793.7,0.7713,média Arvo
+Sobreposição de consultas,Técnica,retida (ligada),35000.0,23422.0,33460.0,0.956,real na Parthenon
+Guias duplicadas,Administrativa,retida (ligada),27000.0,17937.11,23916.15,0.8858,real na Parthenon
+Quantidade excessiva SADT internação,Técnica,retida (ligada),17500.0,12177.88,17396.96,0.9941,real na Parthenon
+Conformidade vias de acesso,Administrativa,desligada,14000.0,8635.16,12400.97,0.8858,média Arvo
+Cobrança em excesso de anatomia patológica,Técnica,desligada,14000.0,8115.23,11654.3,0.8324,média Arvo
+Pertinência de taxas,Administrativa,retida (ligada),8400.0,6060.76,8302.41,0.9884,real na Parthenon
+Código-descrição divergentes,Administrativa,retida (ligada),8400.0,5199.68,7026.6,0.8365,real na Parthenon
+Cobrança indevida de procedimentos ambulatoriais durante internação,Técnica,desligada,7000.0,4622.71,6638.68,0.9484,média Arvo
+Conformidade taxas de sala,Técnica,retida (ligada),3550.0,2236.5,3195.0,0.9,real na Parthenon
+Cobrança inadequada de anatomia patológica,Técnica,retida (ligada),2800.0,1479.25,2175.37,0.7769,real na Parthenon
+Quantidade excessiva de terapia internação,Técnica,desligada,14000.0,1227.68,1763.07,0.1259,média Arvo
+Códigos inativos,Administrativa,retida (ligada),70.0,39.2,62.23,0.889,real na Parthenon

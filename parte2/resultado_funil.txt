@@ -1,0 +1,87 @@
+FUNIL DO MÊS (junho de 2025, sinistro processado R$ 70.000.000)
+  Identificada (26 inteligências)        R$    1.936.700   2.77%
+   - perda: 12 inteligências desligadas  R$      966.000
+   - perda: filtros nas 14 ligadas       R$      433.720
+  Enviada à operadora                    R$      536.980   0.77%
+   - perda: registro + análise interna   R$      163.065  (30.4% do enviado)
+  Enviada ao prestador                   R$      373.915   0.53%
+   - perda: recursos de glosa            R$       38.145  (10.2% do enviado)
+  Efetivada                              R$      335.770   0.48%
+  Meta do Paulo (2% do sinistro)         R$    1.400.000   2.00%
+  Distância até a meta                   R$    1.064.230
+
+Efetivado / identificado: 17.3%. De cada R$ 100 que a Arvo identifica, R$ 17 viram economia.
+
+INTELIGÊNCIAS LIGADAS: onde está cada perda
+  inteligência                                tipo            filtro  op→prest  efetiv. média Arvo
+  Pertinencia de Materiais                    Técnica            75%       62%      90%        85%
+  Sobreposição de procedimentos cirúrgicos    Técnica            50%       67%      95%        96%
+  Pertinência em Pronto Socorro               Técnica            50%       69%      96%        91%
+  Guias duplicadas                            Administrativa     30%       75%      89%        89%
+  Código-descrição divergentes                Administrativa     10%       74%      84%        85%
+  Conformidade taxas de sala                  Técnica             6%       70%      90%        88%
+  Sobreposição de consultas                   Técnica            62%       70%      96%        92%
+  Pertinência de taxas                        Administrativa     20%       73%      99%        89%
+  Quantidade excessiva SADT internação        Técnica            50%       70%      99%        97%
+  Sobreposição de taxas                       Administrativa      0%       72%      69%        64%
+  Serviço fora do Rol ANS                     Administrativa      0%       64%      95%        95%
+  Cobrança inadequada de anatomia patológica  Técnica            20%       68%      78%        83%
+  Conformidade auxiliares                     Administrativa      0%       65%      72%        77%
+  Códigos inativos                            Administrativa     10%       63%      89%        84%
+  Passagem operadora→prestador varia só de 62% a 75% entre as 14 inteligências.
+  Correlação entre passagem e efetivação da inteligência: -0.01
+  Correlação entre passagem e média Arvo da inteligência: -0.07
+  Inteligências com efetivação igual ou acima da média Arvo: 10 de 14
+  Retido por filtro nas técnicas: R$      389.850
+  Retido por filtro nas administrativas: R$       43.870
+
+CENÁRIO CONSERVADOR (perda de registro continua): efetivado incremental por mês
+  Hoje                                                                                  R$      335.770   0.48%
+  A. Fechar a perda de registro e análise nas 14 ligadas                +R$            0  R$      335.770   0.48%   [Parthenon (TI) + Arvo]
+  B. Liberar códigos retidos nas ligadas (técnicas)                     +R$      236.431  R$      572.201   0.82%   [Dr. Ary + Arvo]
+  B. Liberar códigos retidos nas ligadas (administrativas)              +R$       29.237  R$      601.438   0.86%   [Alana + Arvo]
+  C. Ligar desligadas (técnicas, média Arvo ≥ 50%)                      +R$      241.307  R$      842.745   1.20%   [Dr. Ary + Arvo]
+  C. Ligar desligadas (administrativas, média Arvo ≥ 50%)               +R$      100.190  R$      942.934   1.35%   [Alana + Arvo]
+  D. Ligar as 2 de baixa efetivação (Alto Markup, terapia internação)   +R$       31.375   (fora da soma: não recomendado agora)
+  Atinge a meta de 2%? não. Falta: R$      457.066 por mês.
+  Anualizado (x12, premissa): incremental de R$    7.285.974 por ano.
+
+CENÁRIO POTENCIAL (perda de registro eliminada): efetivado incremental por mês
+  Hoje                                                                                  R$      335.770   0.48%
+  A. Fechar a perda de registro e análise nas 14 ligadas                +R$      146.982  R$      482.752   0.69%   [Parthenon (TI) + Arvo]
+  B. Liberar códigos retidos nas ligadas (técnicas)                     +R$      361.542  R$      844.294   1.21%   [Dr. Ary + Arvo]
+  B. Liberar códigos retidos nas ligadas (administrativas)              +R$       39.307  R$      883.601   1.26%   [Alana + Arvo]
+  C. Ligar desligadas (técnicas, média Arvo ≥ 50%)                      +R$      346.541  R$    1.230.143   1.76%   [Dr. Ary + Arvo]
+  C. Ligar desligadas (administrativas, média Arvo ≥ 50%)               +R$      143.883  R$    1.374.025   1.96%   [Alana + Arvo]
+  D. Ligar as 2 de baixa efetivação (Alto Markup, terapia internação)   +R$       45.058   (fora da soma: não recomendado agora)
+  Atinge a meta de 2%? não. Falta: R$       25.975 por mês.
+  Anualizado (x12, premissa): incremental de R$   12.459.061 por ano.
+
+RANKING DE OPORTUNIDADE POR INTELIGÊNCIA (efetivado incremental por mês)
+  inteligência                                tipo           situação            valor parado    conservador      potencial efetiv.
+  Pertinencia de Materiais                    Técnica        retida (ligada)    R$      187.500  R$      104.764  R$      168.975     90%
+  Sobreposição de SADT                        Técnica        desligada          R$      175.000  R$       87.896  R$      126.228     72%
+  Quantidade excessiva de taxas               Administrativa desligada          R$       98.000  R$       65.238  R$       93.688     96%
+  Sobreposição de procedimentos cirúrgicos    Técnica        retida (ligada)    R$       91.000  R$       57.720  R$       86.150     95%
+  Quantidade excessiva SADT ambulatorial      Técnica        desligada          R$       77.000  R$       47.173  R$       67.745     88%
+  Reexecução SADT                             Técnica        desligada          R$       63.000  R$       36.696  R$       52.700     84%
+  Pertinência em Pronto Socorro               Técnica        retida (ligada)    R$       52.500  R$       34.631  R$       50.190     96%
+  Quantidade Excessiva de Materiais           Técnica        desligada          R$       56.000  R$       30.296  R$       43.507     78%
+  Alto Markup                                 Administrativa desligada          R$      350.000  R$       30.148  R$       43.295     12%
+  Quantidade excessiva de terapia sequencial  Técnica        desligada          R$       49.000  R$       26.509  R$       38.069     78%
+  Códigos inválidos                           Administrativa desligada          R$       49.000  R$       26.317  R$       37.794     77%
+  Sobreposição de consultas                   Técnica        retida (ligada)    R$       35.000  R$       23.422  R$       33.460     96%
+  Guias duplicadas                            Administrativa retida (ligada)    R$       27.000  R$       17.937  R$       23.916     89%
+  Quantidade excessiva SADT internação        Técnica        retida (ligada)    R$       17.500  R$       12.178  R$       17.397     99%
+  Conformidade vias de acesso                 Administrativa desligada          R$       14.000  R$        8.635  R$       12.401     89%
+  Cobrança em excesso de anatomia patológica  Técnica        desligada          R$       14.000  R$        8.115  R$       11.654     83%
+  Pertinência de taxas                        Administrativa retida (ligada)    R$        8.400  R$        6.061  R$        8.302     99%
+  Código-descrição divergentes                Administrativa retida (ligada)    R$        8.400  R$        5.200  R$        7.027     84%
+  Cobrança indevida de procedimentos ambulato Técnica        desligada          R$        7.000  R$        4.623  R$        6.639     95%
+  Conformidade taxas de sala                  Técnica        retida (ligada)    R$        3.550  R$        2.236  R$        3.195     90%
+  Cobrança inadequada de anatomia patológica  Técnica        retida (ligada)    R$        2.800  R$        1.479  R$        2.175     78%
+  Quantidade excessiva de terapia internação  Técnica        desligada          R$       14.000  R$        1.228  R$        1.763     13%
+  Códigos inativos                            Administrativa retida (ligada)    R$           70  R$           39  R$           62     89%
+
+TETO TEÓRICO (todas as 26 ligadas, sem filtro, sem perda de registro): R$    1.419.083   2.03%
+Média de efetivação usada como referência das ligadas hoje: 89.8%; passagem média operadora→prestador: 69.6%.

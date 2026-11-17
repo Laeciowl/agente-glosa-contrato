@@ -1,0 +1,22 @@
+Itens no gabarito: 263 (150 Sim, 113 Não)
+
+Matriz de confusão (linhas = auditor, colunas = agente)
+                    agente glosou   agente não glosou
+  auditor Sim            135               15
+  auditor Não              8              105
+
+Precisão: 94.4%   (135 de 143 glosas confirmadas pelo auditor)
+Recall:   90.0%   (135 de 150 indevidos encontrados)
+Acurácia: 91.3%
+
+Valor em jogo nas divergências:
+  falsos positivos: R$ 3,527.60 glosados em itens que o auditor aprovou
+  falsos negativos: R$ 15,845.68 cobrados em itens que o auditor reprovou (valor total do item)
+
+Precisão por regra (no gabarito):
+  R1_PRECO                52 confirmadas,  4 contestadas pelo auditor   precisão 92.9%
+  R1_PRECO_PACOTE         10 confirmadas,  1 contestadas pelo auditor   precisão 90.9%
+  R2_PACOTE               44 confirmadas,  3 contestadas pelo auditor   precisão 93.6%
+  R3_URGENCIA_ELETIVO     29 confirmadas,  0 contestadas pelo auditor   precisão 100.0%
+
+Glosas com alerta de recurso (PS registrado como eletivo) presentes no gabarito: 4 (4 Sim)
