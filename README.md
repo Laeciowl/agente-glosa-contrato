@@ -76,5 +76,3 @@ O motor (`agente.py`) não muda.
 | `conferir_parametros.py` | Confere o JSON contra o contrato |
 | `extrair_texto_contrato.py` | Opcional. Extraiu o texto do PDF uma vez (precisa de `pdfplumber`) |
 | `dados/` | Contrato, extrato do sinistro, gabarito e texto extraído do contrato |
-
-Os dados são fictícios e foram fornecidos para o processo seletivo.
